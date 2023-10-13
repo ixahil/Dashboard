@@ -1,3 +1,5 @@
+"use client";
+
 import ProjectForm from "@/components/shared/projectForm/ProjectForm";
 import { FormProvider } from "@/context/FormContext";
 import React from "react";
