@@ -7,7 +7,7 @@ import * as Yup from "yup";
 import { ImageGallery } from "./ImageGallery";
 import { useFormContext } from "@/context/FormContext";
 import TechStackIcons from "./TechStackIcons";
-import Editor from "./Editor";
+// import Editor from "./Editor";
 import { API } from "@/utils/constants/constants";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -176,7 +176,7 @@ const ProjectForm = () => {
         <label htmlFor="description" className="block text-gray-600 mb-2">
           Project Description
         </label>
-        <Editor description={values.description} />
+        {/* <Editor description={values.description} /> */}
       </div>
     </form>
   );
